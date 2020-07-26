@@ -39,5 +39,6 @@ There are four parts of this program:
 ## How to run?
 - main file to run is *Knight_move_in_chessboard.py* 
 - set the initial position *(x0, y0)*
-- then from command prompt run *python Knight_move_in_chessboard.py*
 - set the number of moves *n*
+- then from command prompt run 
+*$ python Knight_move_in_chessboard.py*
