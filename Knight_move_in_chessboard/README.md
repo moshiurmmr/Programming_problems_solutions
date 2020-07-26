@@ -41,5 +41,4 @@ There are four parts of this program:
 - set the initial positio, *(x0, y0)*
 - set the number of moves, *n*
 - then from command prompt run
- 
-*$ python Knight_move_in_chessboard.py*
+    *$ python Knight_move_in_chessboard.py*
