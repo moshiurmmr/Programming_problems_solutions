@@ -19,19 +19,22 @@ def knightMovesForNTimes(n, x0, y0):
         #y_last = y0
         # randomly select any of the possible 8 moves of the knight
         move_dir = randint(1, 8)
-        x, y = getMovePosition(move_dir, x_init, y_init)
-        if x != -100 or y != -100:
+        x, y = getMovePosition(move_dir, x_last, y_last)
+        # update the last position of the knight
+        x_last = x
+        y_last = y
+        #if x != -100 or y != -100:
             # when the knight is inside the chessboard
-            x_last = x
-            y_last = y
+         #   x_last = x
+          #  y_last = y
         # if the knight moves out of the chessboard, then the move is invalid
         # make a new move valid move
         #if x == -100 and y == -100:
-        else:
-            print("The knight moves out of the chessboard.")
-            x, y = getMovePosition(move_dir, x_last, y_last)
+        #else:
+         #   print("The knight moves out of the chessboard.")
+          #  x, y = getMovePosition(move_dir, x_last, y_last)
             #break
             #i = i -1
-        print("The knight moves to position ({} {}) for move# {}\n".format(x, y, i+1))
+        print("The knight moves to position ({} {}) after move# {}\n".format(x, y, i+1))
 
     return x, y

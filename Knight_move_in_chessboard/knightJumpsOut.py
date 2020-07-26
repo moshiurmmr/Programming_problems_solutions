@@ -7,4 +7,4 @@ def knightJumpsOut():
     #y_new = -100
     #return x_new, y_new
 
-    print("The knight jumps out of the chessboard, reverting back to previous positions. \n")
+    print("The knight jumps out of the chessboard, reverting back to previous position. \n")

@@ -18,14 +18,14 @@ from math import  sqrt
 from knightMovesForNTimes import knightMovesForNTimes
 
 # starting position (origin) of the knight, it can be changed to any position e.g., (0, 0)
-x0 = 5
-y0 = 4
+x0 = 4
+y0 = 5
 
 # number of moves
 n = 10
 
 # print the initial message
-print("\n The knight starts at positon ({}, {}) and it will move for {} times \n".format(x0, y0, n))
+print("The knight starts at positon ({}, {}) and it will move for {} times \n".format(x0, y0, n))
 
 # final position of the knight after n number of moves
 (x_final, y_final) = knightMovesForNTimes(n, x0, y0)
@@ -38,4 +38,4 @@ x_distance = x_final - x0
 y_distance = y_final - y0
 distance = sqrt(x_distance**2 + y_distance**2)
 
-print("The Ecuclidean distance after n moves is: {}".format(distance))
+print("The Ecuclidean distance after {} moves is: {}".format(n, distance))
