@@ -35,3 +35,9 @@ There are four parts of this program:
 
 ### knightJumpsOut.py
 - displays a message when the knight moves out of the chessboard 
+
+## How to run?
+- main file to run is *Knight_move_in_chessboard.py* 
+- set the initial position *(x0, y0)*
+- then from command prompt run *python Knight_move_in_chessboard.py*
+- set the number of moves *n*
