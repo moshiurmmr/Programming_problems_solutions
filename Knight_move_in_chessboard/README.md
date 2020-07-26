@@ -19,12 +19,19 @@ There are four parts of this program:
 ### Knight_move_in_chessboard.py
 * initializes the starting positon of the knight in the chessboard
 * initializes the number of moves that the knight makes
-* calls knightMovesForNTimes function to calculate the position of the knight after a single move
+* calls *knightMovesForNTimes* function to calculate the position of the knight after a single move
 * calculates the Euclidean distance between the knight's initial and final posiitons
 
 ### knightMovesForNTimes.py
+- moves the knight in a random direction with equal probabilities
+- calls *getMovePosition* funciton to calculate the knight's position for a single move
 - calculates the knight's final position after *n* moves
 
 ### getMovePosition.py
+- calculates the position of the knight for a single move
+- there are 8 possible moves that a knight can make
+- takes care of situations when the knight has the possiblility of moving out of the chessboard
+- calls *knightJumpsOut* function to display a message when the knight moves out of the chessboard 
 
 ### knightJumpsOut.py
+- displays a message when the knight moves out of the chessboard 
